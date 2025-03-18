@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PublishMessage continueOnError="false" enabled="true" name="PM-server-a-queue">
+  <DisplayName>PM-server-a-queue</DisplayName>
+  <Source>Hello World!</Source>
+  <CloudPubSub>
+    <Topic>projects/hedden-apigee-sandbox/topics/server-a-queue</Topic>
+  </CloudPubSub>
+</PublishMessage>

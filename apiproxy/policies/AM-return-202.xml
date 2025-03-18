@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-return-202">
+  <DisplayName>AM-return-202</DisplayName>
+  <Properties/>
+  <Set>
+    <StatusCode>202</StatusCode>
+    <Payload>Request Accepted</Payload>
+  </Set>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

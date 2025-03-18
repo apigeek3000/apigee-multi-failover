@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="10" name="failover-example-v1">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1742318281088</CreatedAt>
+  <LastModifiedAt>1742318281088</LastModifiedAt>
+  <BasePaths>/v1/failover-example</BasePaths>
+  <Policies>
+    <Policy>PM-server-a-queue</Policy>
+    <Policy>AM-return-202</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
