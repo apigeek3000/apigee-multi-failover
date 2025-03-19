@@ -3,6 +3,6 @@
   <DisplayName>PM-server-a-queue</DisplayName>
   <Source>Hello World!</Source>
   <CloudPubSub>
-    <Topic>projects/hedden-apigee-sandbox/topics/server-a-queue</Topic>
+    <Topic>projects/your-gcp-project/topics/server-a-queue</Topic>
   </CloudPubSub>
 </PublishMessage>

@@ -51,7 +51,7 @@ Follow [the documentation to create two target servers](https://cloud.google.com
 - For the target server which points to the Cloud Run Function server-a, name it server-a. Likewise, do the same for server-b.
 - For both target servers, configure them on port 443 and enable SSL (no further SSL config needed)
 
-Now let's deploy the Apigee proxy. Zip up the apiproxy folder in this repo and name the zip file `failover-example-v1.zip`. This will be our proxy bundle.
+Now let's deploy the Apigee proxy. Go to apiproxy/policies/PM-server-a-queue.xml and update \<Topic\> property with your own gcp project name. After that, zip up the apiproxy folder in this repo and name the zip file `failover-example-v1.zip`. This will be our proxy bundle.
 
 Navigate to Apigee in the GCP, go to API proxies, click the +CREATE button, under Proxy template choose Upload proxy bundle, upload our proxy bundle zip, name the proxy `failover-example-v1`, use the failover-example SA in the service account field, and deploy the proxy in your environment.
 
