@@ -1,6 +1,6 @@
 # apigee-multi-failover
 
-This repo outlines a resiliant architecture between Apigee and backend servers. If the primary backend server returns a 503 Service Unavailable error then Apigee will failover to the backup server, if the backup server also returns a 503 error then Apigee will call to PubSub to asynchronosly send the message to the primary backend server to handle once it's back online.
+This repo outlines a resilient architecture between Apigee and backend servers. If the primary backend server returns a 503 Service Unavailable error then Apigee will failover to the backup server, if the backup server also returns a 503 error then Apigee will call to PubSub to asynchronosly send the message to the primary backend server to handle once it's back online.
 
 ## Prereqs
 
